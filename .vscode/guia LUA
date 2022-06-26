@@ -1,0 +1,16 @@
+--tostring vai retornar para voce um valor em "string"
+--diferentemente do "print" que só mostra algo na tela sem retornar nenhum valor;
+
+--exemplo :
+
+valor = false
+
+print("o valor é: " .. tostring(valor))
+-- basicamente qualquer valor retornavel pode ser retornado usando tostring
+---quando chamamos um função como o tostring o que vai dentro dos () é chamado de argumento e 
+---o valor retornado é chamado de retorno ou saída 
+
+--[[ 
+    o "_G.oNOME DA VARIAVEL" SERVE PARA BUSCAR UMA VARIAVEL GLOBAL DENTRO DE UMA VRIAVEL LOCAL QUANDO AS DUAS
+    TEM O MESMO NOME
+]]--
